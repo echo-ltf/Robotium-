@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.test.TButtonTest"
+    tools:ignore="MergeRootFrame" >
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button 
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:text="原始数据"/>
+    <TextView 
+        android:id="@+id/textView"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:text="这是textview"/>
+    <Button 
+        android:id="@+id/skipbutton"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:text="跳转"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:background="#f00fff">
+
+        <com.example.test.MyCircleView
+            android:id="@+id/circle"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    
+    
+</LinearLayout>
+
